@@ -22,4 +22,7 @@ plugins {
     id("org.jetbrains.kotlin.android") version "1.8.22" apply false
 }
 
+// ✅ Tambahkan project Unity Library
 include(":app")
+// include(":unityLibrary")
+// project(":unityLibrary").projectDir = File(rootDir, "../unityLibrary")

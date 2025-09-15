@@ -228,7 +228,7 @@ class CpTpScreen extends StatelessWidget {
       "Melalui kegiatan pembelajaran dengan media UNIVECOS dan model Project Oriented Problem Based (POPBL):",
           "1. Peserta didik dapat menjelaskan materi ekosistem melalui diskusi kelompok.",
           "2. Peserta didik dapat menganalisis solusi dari permasalahan terkait materi ekosistem melalui teknologi metaverse secara berkelompok.", // "Siswa mampu menjelaskan pengertian ekosistem dengan benar",
-          "3. Peserta didik dapat menghasilkan produk berupa solusi inovatif sesuai dengan permasalahan yang dipelajari.", // "Siswa dapat mengidentifikasi komponen biotik dan abiotik dalam suatu ekosistem",
+          "3. Peserta didik dapat menghasilkan produk berupa solusi inovatif sesuai dengan permasalahan ekosistem yang dipelajari.", // "Siswa dapat mengidentifikasi komponen biotik dan abiotik dalam suatu ekosistem",
       // "Siswa mampu menganalisis hubungan antar komponen dalam ekosistem",
       // "Siswa dapat memberikan contoh penerapan konsep konservasi",
       // "Siswa mampu menyusun laporan hasil observasi lingkungan",

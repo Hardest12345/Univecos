@@ -3,6 +3,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import 'organisir/team_chat_screen.dart';
 import 'organisir/smartbooks_screen.dart';
 import 'organisir/ai_chat_screen.dart';
+import 'organisir/metaverse_screen.dart';
 
 class OrganizerScreen extends StatefulWidget {
   const OrganizerScreen({super.key});
@@ -252,8 +253,12 @@ class _OrganizerScreenState extends State<OrganizerScreen> {
                                 "Metaverse",
                                 Icons.public,
                                 () {
-                                  // open metaverse link (contoh stub)
-                                  // pakai url_launcher
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (_) => const MetaverseScreen(),
+                                    ),
+                                  );
                                 },
                               ),
                             ],

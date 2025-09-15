@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # flutter_unity_widget:
+  #   path: plugins/flutter_unity_widget
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -50,6 +53,8 @@ dependencies:
   video_player: ^2.10.0
   flutter_image_compress: ^2.4.0
   pdf: ^3.11.3
+  url_launcher: ^6.3.2
+  # flutter_unity_widget: ^2022.2.1
 
 dev_dependencies:
   flutter_test:
@@ -84,9 +89,14 @@ flutter:
     - assets/images/welcome_to.png
     - assets/images/map.png
     - assets/images/map_1.png
-    - assets/images/proyek.png
     - assets/images/logo_apk.png
     - assets/pdf/modul_ajar.pdf
+    - assets/images/proyek.png
+    - assets/images/proyek2.png
+    - assets/images/proyek3.png
+    - assets/images/proyek4.png
+    - assets/images/proyek5.jpg
+    - assets/video/metaverse.mp4
 
   # To add assets to your application, add an assets section, like this:
   # assets:

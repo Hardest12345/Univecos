@@ -54,7 +54,7 @@ class _AdminTestListScreenState extends State<AdminTestListScreen> {
                 ),
               ).then((_) => fetchQuestions());
             },
-          )
+          ),
         ],
       ),
       body: ListView.builder(
@@ -74,9 +74,13 @@ class _AdminTestListScreenState extends State<AdminTestListScreen> {
                       "${String.fromCharCode(65 + i)}. ${options[i]}",
                       style: TextStyle(
                         fontWeight:
-                            i == q['correct_index'] ? FontWeight.bold : FontWeight.normal,
+                            i == q['correct_index']
+                                ? FontWeight.bold
+                                : FontWeight.normal,
                         color:
-                            i == q['correct_index'] ? Colors.green : Colors.black,
+                            i == q['correct_index']
+                                ? Colors.green
+                                : Colors.black,
                       ),
                     ),
                 ],
